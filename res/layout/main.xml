@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/ed1_421"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="USERNAME" />
+
+    <EditText
+        android:id="@+id/ed2_421"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ed1_421"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn1_421"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2_421"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnmember_421"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1_421"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="New Member" />
+
+</RelativeLayout>
